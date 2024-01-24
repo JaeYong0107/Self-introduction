@@ -32,7 +32,50 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.MenuBar {
+  font-size: 20px;
+  font-style: italic;
+  align-items: center;
+  text-align: center;
+  padding-top: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+}
+
+.Content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: center;
+  border: 2px solid black;
+}
+
+.Main {}
+
+.profile img {
+  border-radius: 15%;
+  border: 2px solid navy;
+}
+
+.Skill {
+  background-color: #61dafb;
+}
+
+.Portfolio {
+  background-color: antiquewhite;
+}
+
+.Contact {
+  background-color: aquamarine;
 }
