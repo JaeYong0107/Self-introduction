@@ -61,6 +61,10 @@
   border: 2px solid black;
 }
 
+.App> :nth-child(2) {
+  background-color: #afc9f6;
+}
+
 .Main {}
 
 .profile img {
@@ -68,9 +72,7 @@
   border: 2px solid navy;
 }
 
-.Skill {
-  background-color: #61dafb;
-}
+.Skill {}
 
 .Portfolio {
   background-color: antiquewhite;

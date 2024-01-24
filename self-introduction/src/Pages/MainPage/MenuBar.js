@@ -3,8 +3,8 @@ import React from "react";
 const Menubar = () => {
     return (
         <nav className="MenuBar">
-            <a href="Main.js">Main</a> | <a href="Skill.js">Skill</a> | {" "}
-            <a href="Portfolio.js">Portfolio</a> | <a href="Contact.js">Contact</a> |
+            <a href="Main">Main</a> | <a href="Skill">Skill</a> | {" "}
+            <a href="Portfolio">Portfolio</a> | <a href="Contact">Contact</a> |
         </nav>
     )
 }
