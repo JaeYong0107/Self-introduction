@@ -39,11 +39,11 @@
 }
 
 .MenuBar {
-  font-size: 20px;
+  font-size: 25px;
   font-style: italic;
   align-items: center;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 20px;
   position: fixed;
   top: 0;
   left: 0;
@@ -58,7 +58,8 @@
   justify-content: center;
   align-items: center;
   scroll-snap-align: center;
-  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
 }
 
 .App> :nth-child(2) {
@@ -76,8 +77,27 @@
 
 .Portfolio {
   background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
 }
 
-.Contact {
+.Portfolio-content {
+  background-color: antiquewhite;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.Portfolio-info {
+  background-color: aliceblue;
+}
+
+.Contact-content {
   background-color: aquamarine;
+  padding: 20px;
+}
+
+.contact-me {
+  background-color: #afc9f6;
 }
